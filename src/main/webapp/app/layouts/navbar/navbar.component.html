@@ -5,7 +5,7 @@
         </a>
         <a class="navbar-brand logo float-left" routerLink="/" (click)="collapseNavbar()">
             <span class="logo-img"></span>
-            <span class="navbar-title">Estacionamientoya</span> <span class="navbar-version">{{version}}</span>
+            <span class="navbar-title">Estacionamiento YA!</span>
         </a>
     </div>
     <div class="navbar-collapse collapse" id="navbarResponsive" [ngbCollapse]="isNavbarCollapsed" [ngSwitch]="isAuthenticated()">
@@ -14,7 +14,7 @@
                 <a class="nav-link" routerLink="/" (click)="collapseNavbar()">
                     <span>
                         <i class="fa fa-home" aria-hidden="true"></i>
-                        <span>Home</span>
+                        <span>Inicio</span>
                     </span>
                 </a>
             </li>
@@ -24,7 +24,7 @@
                     <span>
                         <i class="fa fa-th-list" aria-hidden="true"></i>
                         <span>
-                            Entities
+                            Perfil
                         </span>
                     </span>
                 </a>
@@ -36,7 +36,7 @@
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="admin-menu">
                     <span>
                         <i class="fa fa-user-plus" aria-hidden="true"></i>
-                        <span>Administration</span>
+                        <span>Administrator</span>
                     </span>
                 </a>
                 <ul class="dropdown-menu" ngbDropdownMenu>
